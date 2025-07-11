@@ -1,45 +1,12 @@
-# firstproject
+# React + Vite
 
-Currency Converter App — Project Description
-📝 Overview
-Hi ,Rahul this side its my first frontend project which isa a curreny converter app .
-The  App is a responsive, single-page application built with React and styled using Tailwind CSS. It allows users to convert an amount from one currency to another using real-time exchange rates fetched from the ExchangeRate-API. The app features a smooth UI with live conversions, input validation, and a swap functionality to reverse the currencies.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🔧 Technologies Used
-Technology	Purpose
-React	Frontend framework for building the UI and components
-Tailwind CSS	Utility-first CSS framework for styling and layout
-ExchangeRate-API	API to fetch real-time currency exchange rates
-React Hooks	useState, useEffect, and useId for state and logic handling
-Custom Hooks	useCurrencyInfo for reusable API-fetching logic
-JavaScript (ES6)	Core language for logic and interactivity
-Vite	Fast React development build tool (instead of CRA)
+Currently, two official plugins are available:
 
-🔑 Key Features
-💸 Currency Conversion: Convert any numeric amount between two currencies
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🔁 Swap Button: Swap source and target currencies in one click
+## Expanding the ESLint configuration
 
-📡 Live Exchange Rates: Data fetched in real-time from ExchangeRate-API
-
-🧩 Reusable Components: Custom InputBox component for better modularity
-
-🧠 Custom Hook: useCurrencyInfo(currency) to encapsulate data-fetching logic
-
-💅 Responsive Design: Mobile-friendly UI using Tailwind's utility classes
-
-🔐 Input Control: Disable/enable amount or currency fields as needed
-
-📁 Project Structure
-
-currencyconverter/
-├── assets/
-│   └── components/
-│       └── Inputbox.jsx
-├── hooks/
-│   └── usecurrencyinfo.js
-├── App.jsx
-├── App.css
-├── vite.config.js
-└── index.html
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
